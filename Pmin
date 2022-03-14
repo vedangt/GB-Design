@@ -1,0 +1,7 @@
+function PMin = Pin_Min(p,g)
+
+m = g/p;
+phi = 20*pi/180;
+k = 1;
+
+PMin = 2*k*(m + sqrt(m*m + (1+2*m)*(sin(phi))*sin(phi)));
